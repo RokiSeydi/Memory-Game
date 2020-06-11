@@ -1,11 +1,38 @@
+body {
+    background-color: whitesmoke;
+}
+
 .grid {
-    display: flex;
-    flex-wrap: wrap;
-    border: 1px solid white;
-    width: 400px;
-    height: 300px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    column-gap: 2em;
+    row-gap: 2em;
+    width: 1000px;
+    height: 200px;
+}
+
+h2 {
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h3 {
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin-top: 8px;
 }
 
 .refresh {
-    margin-top: 20px;
+    margin-top: 250px;
+    font-size: 15px;
+    border-radius: 10%;
+    margin-left: 680px;
 }

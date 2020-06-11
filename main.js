@@ -120,6 +120,9 @@ function flipCard() {
     }
     // setTimeout(checkForMatch, 200)
 
+    function refresh() {
+        location.reload();
+    }
 }
 
 createBoard();

@@ -105,7 +105,9 @@ function checkForMatch() {
 }
 
 //flipping
+
 function flipCard() {
+    console.log("working")
     const cardId = this.getAttribute('data-id');
     cardsChosen.push(cardArray[cardId].name);
     cardsChosenId.push(cardId);

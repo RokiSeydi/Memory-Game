@@ -1,5 +1,3 @@
-// document.addEventListener('DOMContentLoaded', () => {
-
 const cardArray = [{
         name: 'bear',
         img: 'images/bear.png'
@@ -50,19 +48,13 @@ const cardArray = [{
     }
 ]
 
-//randomiser 
 cardArray.sort(() => 0.5 - Math.random())
-
-//the board
 
 const grid = document.querySelector('.grid')
 const resultDisplay = document.querySelector('#result')
 let cardsChosen = []
 let cardsChosenId = []
 let cardsWon = []
-
-
-// dont forget for looping
 
 const createBoard = () => {
     for (i = 0; i < cardArray.length; i++) {
@@ -74,7 +66,6 @@ const createBoard = () => {
     }
 }
 
-//match
 function checkForMatch() {
     let cards = document.querySelectorAll('img')
     const optionOneId = cardsChosenId[0]
@@ -104,8 +95,6 @@ function checkForMatch() {
     }
 }
 
-//flipping
-
 function flipCard() {
     console.log("working")
     const cardId = this.getAttribute('data-id');
@@ -120,7 +109,6 @@ function flipCard() {
     } else if (cardsChosen.length === 2) {
         checkForMatch();
     }
-    // setTimeout(checkForMatch, 200)
 
     function refresh() {
         location.reload();
@@ -128,4 +116,3 @@ function flipCard() {
 }
 
 createBoard();
-// });

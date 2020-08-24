@@ -1,4 +1,8 @@
 # Memory-Game
 
-a simple memory game built with HTML, CSS and vanilla Javascript. 
-The user needs to pair up the matching pair to win the game
+The aim of the game is for the user to pair up the matching pair to win the game
+
+Tools used:
+- HTML5
+- CSS3
+- Javascript

@@ -5,5 +5,5 @@ It was created with the aim to practice JavaScript and different aspects of the 
 
 To create the game I used:
 - HTML5
-- CSS3
+- SCSS
 - Javascript
